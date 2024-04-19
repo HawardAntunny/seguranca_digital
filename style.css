@@ -4,9 +4,22 @@
     --fundo-senha: #59ec71;
     --fundo-do-texto: #27973a;
     --borda: #09ff00;
+    --fonte1: "Kode Mono", monospace;
+    --fonte2: "Protest Revolution", sans-serif;
+
+}   
+
+body{
+    color:var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte2)
 }
 
-.body{
-    color:var(--branco);
-    background-color: var(--cor-de-fundo)
+.titulo-principal{
+    font-family: var(--fonte1);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
 }
